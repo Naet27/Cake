@@ -13,7 +13,7 @@ navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
 
     if (volume > 50) { // ถ้าเสียงดังเหมือนเป่า
       document.querySelector(".flame").style.display = "none";
-      document.getElementById("message").innerText = "ขอให้วันเกิดปีนี้เต็มไปด้วยรอยยิ้มน้า Happy Birthday";
+      document.getElementById("message").innerText = "ขอให้วันเกิดปีนี้เต็มไปด้วยรอยยิ้มน้า";
     } else {
       requestAnimationFrame(detectBlow);
     }
